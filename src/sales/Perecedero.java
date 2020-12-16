@@ -1,7 +1,10 @@
 package sales;
 
+import java.time.LocalDateTime;
+
 public class Perecedero extends Producto {
 	private int diasACaducar;
+	private LocalDateTime horaAFichar;
 
 	public Perecedero(String nombre, double precio, int diasACaducar) {
 		super(nombre, precio);
